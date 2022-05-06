@@ -1,5 +1,44 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-
-# Ignore Gradle build output directory
+# Gradle
 build
+gradle.properties
+.gradle
+local.properties
+out
+
+# Maven (examples)
+target
+
+# Bazel
+bazel-bin
+bazel-examples
+bazel-genfiles
+bazel-grpc-java
+bazel-out
+bazel-testlogs
+
+# IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+.ijwb
+
+# Eclipse
+.classpath
+.project
+.settings
+.gitignore
+bin
+
+# OS X
+.DS_Store
+
+# Emacs
+*~
+\#*\#
+
+# ARM tests
+qemu-arm-static
+
+# Temporary output dir for artifacts
+mvn-artifacts
