@@ -14,12 +14,13 @@ import static org.mockito.Mockito.doThrow;
 
 // Mockito による JUnit5 エクステンション
 @ExtendWith( MockitoExtension.class )
-public class ClientTest {
-    // モックを注入するオブジェクト
+public class ClientTest
+{
+    // テスト対象のクラスに対してつけるアノテーション
     @InjectMocks
     private Client client = new Client();
 
-    // モック化するオブジェクト
+    // テスト対象で使用するクラスに対してつけるアノテーション
     @Mock
     private Worker mockedWorker;
 
